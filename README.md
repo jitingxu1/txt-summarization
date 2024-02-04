@@ -1,7 +1,8 @@
 # txt-summarization
 
 ![Loading Animation](img/txt-summarization-demo.gif)
-note: my openai_api_key was deleted.
+
+**note**: my openai_api_key was deleted.
 
 ## Test in github codespace
 
