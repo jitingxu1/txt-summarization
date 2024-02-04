@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "txt-summarization"
+version = "0.1.0"
+description = "text file summarization"
+authors = ["Jiting Xu <126802425+jitingxu1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.109.1"
+uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
+python-multipart = "^0.0.7"
+openai = "^1.11.0"
+streamlit = "^1.31.0"
+langchain = "^0.1.5"
+tiktoken = "^0.5.2"
+slowapi = "^0.1.8"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
